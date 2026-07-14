@@ -1,0 +1,16 @@
+name: ts_ute
+channels:
+  - conda-forge # defaults
+dependencies:
+  - python=3.13
+  - mlforecast
+#  - statsforecast
+#  - neuralforecast
+  - ipykernel
+  - plotly
+  - nbformat
+#  - window-ops
+  - lightgbm
+  - xgboost
+  - seaborn
+prefix: /home/agomez/anaconda3/envs/ts_ute
