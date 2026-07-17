@@ -2,14 +2,14 @@ name: ts_ute
 channels:
   - conda-forge # defaults
 dependencies:
-  - python=3.13
+  - python=3.11
   - mlforecast
-#  - statsforecast
-#  - neuralforecast
+  - statsforecast
+  - neuralforecast
   - ipykernel
   - plotly
   - nbformat
-#  - window-ops
+  - window-ops
   - lightgbm
   - xgboost
   - seaborn
