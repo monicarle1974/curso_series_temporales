@@ -1,0 +1,25 @@
+# PyTorch Lightning / TensorBoard logs
+lightning_logs/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Kaggle submissions
+KAGGLE/submission.csv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datos grandes
+*.csv
+*.xlsx
+*.parquet
+
+# Modelos entrenados
+*.ckpt
+*.pth
+*.pt
+*.pkl
+
+# env
+#ts/
